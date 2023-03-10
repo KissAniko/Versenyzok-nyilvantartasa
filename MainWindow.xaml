@@ -24,15 +24,9 @@
             <ListBox x:Name="lbNevLista"
                      Background="LightGreen"
                      Width="150"
-                     Margin="5"/>
-                     
-                     
-                    
-
+                     Margin="5"/>                                                           
         </StackPanel>
-        
-                    
-        
+                                    
         <StackPanel Grid.Column="1">
 
             <StackPanel Orientation="Horizontal">
@@ -43,12 +37,9 @@
 
                 <TextBox x:Name="txtVersenyzo"
                          Width="100" 
-                         IsStylusCapturedChanged="txtVersenyzo_IsStylusCapturedChanged"/>
-                         
-           
+                         IsStylusCapturedChanged="txtVersenyzo_IsStylusCapturedChanged"/>                                 
             </StackPanel>
            
-
             <Label Content="Magassága:"
                    FontSize="12"/>
 
@@ -60,7 +51,6 @@
             <Separator Margin="0 10"/>
 
         </StackPanel>
-
         
         <StackPanel Grid.Column="1"
                     Grid.Row="1">
@@ -84,9 +74,7 @@
 
             <Separator Margin="0 10"/>
         </StackPanel>
-        
-        
-        
+                        
         <StackPanel Grid.Row="2"
                     Grid.Column="1">
             <StackPanel Orientation="Horizontal">
@@ -94,12 +82,9 @@
                    FontSize="12"/>
             <Label x:Name="lbVersenyzokSzama" 
                    Content="0"
-                   Foreground="Red" />
-                   
-                
+                   Foreground="Red" />                                   
             </StackPanel>
-           
-                   
+                              
             <Separator Margin="0 10"/>
 
             <Button Content="Kékre vált"
@@ -108,7 +93,6 @@
             <Separator Margin="0 10"/>
             
             <StackPanel>
-
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center">
                             
@@ -118,10 +102,8 @@
                     <TextBox Width="70"
                              Margin="20"
                              x:Name="txtMasikSzam"/>
-
                 </StackPanel >
-                
-                    
+                                    
                     <Button Content="Összead"
                             Margin="0 5"
                             x:Name="btnOsszead"
@@ -130,16 +112,9 @@
                     <Label HorizontalAlignment="Center"
                            x:Name="lbOsszead" 
                            Content="0"
-                           Foreground="Red" />
-
-               
-                
-            </StackPanel>
-            
-
-
+                           Foreground="Red" />                               
+            </StackPanel>            
         </StackPanel>
-         
-        
+                 
     </Grid>
 </Window>
